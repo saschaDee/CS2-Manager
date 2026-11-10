@@ -15,6 +15,10 @@ Ein Windows-Tool von **SaschaDe** zur Konfiguration und Vorbereitung von Counter
 
 ---
 
+## Screenshot
+
+![CS2 Manager – Hauptfenster](screenshot-cs2-manager.jpg)
+
 ## Funktionen
 
 - **CPU-Affinität und Prozesspriorität** – CS2-Prozess gezielt konfigurieren.
