@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Copyright>Copyright © 2026 SaschaDe</Copyright>
+    <Description>CS2 Performance &amp; Configuration Tool</Description>
+    <Product>CS2 Manager</Product>
+    <Authors>SaschaDe</Authors>
+    <Company>SaschaDe</Company>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>1.0.0</Version>
+    <AssemblyTitle>CS2 Manager</AssemblyTitle>
+    <ApplicationIcon>Assets/CS2_Manager_Icon.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Icon wird in die EXE eingebettet (Fenster- und Tray-Symbol); kein Begleitordner "Resources" mehr nötig. -->
+    <Resource Include="Resources\CS2Manager.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="10.0.0" />
+  </ItemGroup>
+</Project>
