@@ -47,7 +47,15 @@ Der genaue Funktionsumfang hängt von der jeweiligen Einstellung und Windows-Umg
 
 ## Unterstützung
 
-Der CS2 Manager kann kostenlos genutzt werden. Wenn du die Entwicklung freiwillig unterstützen möchtest, freue ich mich über eine Spende. Ein Spendenlink wird ergänzt, sobald er eingerichtet ist. Eine Spende ist selbstverständlich keine Voraussetzung für die Nutzung.
+Wenn dir der CS2 Manager gefällt und du meine Arbeit freiwillig unterstützen möchtest, freue ich mich über eine kleine Spende.
+
+<div align="center">
+
+[❤️ **SaschaDe auf PayPal unterstützen**](https://paypal.me/saschade87)
+
+<sub>Die Nutzung des CS2 Managers bleibt kostenlos. Spenden sind freiwillig.</sub>
+
+</div>
 
 ## Entwickler
 
