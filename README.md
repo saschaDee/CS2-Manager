@@ -1,66 +1,58 @@
+<div align="center">
+
+![CS2 Manager – Optimize. Configure. Play.](assets/banner.png)
+
 # CS2 Manager
 
-Ein Windows-Desktoptool (WPF / C# / .NET 10) für die Konfiguration und Vorbereitung von Counter-Strike 2.
+**Optimize. Configure. Play.**
 
-**Entwickler:** SaschaDe  
-**Leitspruch:** Optimize. Configure. Play.
+Ein Windows-Tool von **SaschaDe** zur Konfiguration und Vorbereitung von Counter-Strike 2.
+
+[⬇️ **CS2 Manager v1.0.0 herunterladen**](https://github.com/saschaDee/CS2-Manager/releases/latest/download/CS2Manager.zip)
+· [Alle Releases](https://github.com/saschaDee/CS2-Manager/releases)
+
+</div>
+
+---
 
 ## Funktionen
 
-- CS2-Prozess erkennen und den Ablauf rund um den Spielstart koordinieren
-- CPU-Affinität und Prozesspriorität für CS2 setzen
-- Windows-TCP-Empfangsfenster-Auto-Tuning optional temporär ändern und den vorherigen Wert beim Aufräumen wiederherstellen
-- Integrierter Standby-Listen-Cleaner; ISLC kann je nach Einstellung optional verwendet werden
-- Optional weitere Programme vorübergehend schließen und nach CS2 wieder starten
-- Optionaler verzögerter Steam-Connect-Link
-- Einstellungen und Wiederherstellungszustand lokal speichern
+- **CPU-Affinität und Prozesspriorität** – CS2-Prozess gezielt konfigurieren.
+- **TCP Auto-Tuning** – Windows-TCP-Empfangsfenster-Auto-Tuning auswählen und bei Bedarf wiederherstellen.
+- **RAM- und Standby-Listen-Cleaner** – integrierte Speicherbereinigungsfunktion.
+- **Verzögerter Steam-Connect** – Steam-Connect-Link zeitversetzt öffnen; läuft CS2 bereits, kann der Link direkt geöffnet werden.
+- **Weitere CS2-Einstellungen** – praktische Optionen zur Vorbereitung des Spiels.
 
-Der konkrete Funktionsumfang richtet sich nach dem aktuellen Quellcode und den Einstellungen in der Anwendung.
+Der genaue Funktionsumfang hängt von der jeweiligen Einstellung und Windows-Umgebung ab.
+
+## Download und Installation
+
+1. Lade **[CS2Manager.zip](https://github.com/saschaDee/CS2-Manager/releases/latest/download/CS2Manager.zip)** aus dem aktuellen Release herunter.
+2. Entpacke die ZIP-Datei in einen eigenen Ordner.
+3. Starte `CS2Manager.exe`.
+4. Erteile Administratorrechte nur dann, wenn du Funktionen verwendest, die sie benötigen.
 
 ## Voraussetzungen
 
-- Windows 10/11, 64 Bit
-- .NET 10 SDK
-- Visual Studio 2022 oder neuer mit Workload **.NET-Desktopentwicklung**
-- Steam und Counter-Strike 2 für den praktischen Einsatz
+- Windows 10 oder Windows 11 (64-Bit)
+- Steam und Counter-Strike 2 für die spielbezogenen Funktionen
 
-## Projekt erstellen
+## Hinweise
 
-1. `CS2Manager.sln` in Visual Studio öffnen.
-2. Konfiguration **Release** wählen.
-3. **Erstellen → Projektmappe neu erstellen**.
+- Einige Funktionen verändern Windows-Systemeinstellungen oder beeinflussen Prozesse. Verwende sie bewusst und auf eigenes Risiko.
+- Administratorrechte können für einzelne Funktionen erforderlich sein.
+- Es gibt keine Garantie für höhere FPS, geringere Latenzen oder bessere Frametimes. Ergebnisse sind systemabhängig.
+- Die Kompatibilität mit FACEIT Anti-Cheat und anderen Anti-Cheat-Systemen wird nicht garantiert. Beachte stets die Regeln der jeweiligen Dienste.
+- Dieses Projekt ist **kein offizielles Produkt** von Valve, Steam, Counter-Strike oder FACEIT und wird von diesen nicht unterstützt.
 
-Alternativ in einem Terminal im Verzeichnis der Projektmappe:
+## Unterstützung
 
-```powershell
-dotnet build .\CS2Manager.sln -c Release
-```
+Der CS2 Manager kann kostenlos genutzt werden. Wenn du die Entwicklung freiwillig unterstützen möchtest, freue ich mich über eine Spende. Ein Spendenlink wird ergänzt, sobald er eingerichtet ist. Eine Spende ist selbstverständlich keine Voraussetzung für die Nutzung.
 
-## Portable Veröffentlichung
+## Entwickler
 
-In Visual Studio das Projekt `CS2Manager` veröffentlichen und das Profil `Win-x64-SelfContained` (falls im Projekt vorhanden) verwenden.
+**SaschaDe** · [GitHub-Profil](https://github.com/saschaDee)
 
-Alternativ:
+---
 
-```powershell
-dotnet publish .\CS2Manager\CS2Manager.csproj -c Release -r win-x64 --self-contained true
-```
-
-Die veröffentlichte Anwendung liegt im Publish-Ausgabeverzeichnis von .NET. Für GitHub sollte die ausführbare Veröffentlichung als **Release-Asset** hochgeladen werden; nicht in den normalen Quellcode-Upload aufnehmen.
-
-## Hinweise und Verantwortung
-
-- Einige Funktionen ändern Windows-Systemeinstellungen oder beenden Prozesse. Prüfe jede Einstellung und verwende das Programm nur, wenn du die Auswirkungen verstehst.
-- Administratorrechte können für bestimmte Systemfunktionen erforderlich sein.
-- Änderungen an Affinität, Priorität, TCP-Einstellungen oder Speicherbereinigung garantieren keine höheren FPS oder besseren Frametimes. Ergebnisse hängen vom jeweiligen System ab.
-- Sichere wichtige Daten und notiere ursprüngliche Systemeinstellungen, bevor du System-Tuning-Funktionen verwendest.
-- Kompatibilität mit FACEIT Anti-Cheat oder anderen Anti-Cheat-Systemen wird nicht garantiert. Verwende keine Funktion, die gegen die Regeln eines Spiels oder Dienstes verstößt.
-- Dieses Projekt steht in keiner Verbindung zu Valve, Steam, Counter-Strike oder FACEIT und wird von diesen nicht unterstützt.
-
-## Spenden
-
-Die Nutzung ist kostenlos. Falls du die Arbeit freiwillig unterstützen möchtest, kannst du später einen freiwilligen Spendenlink (z. B. GitHub Sponsors oder PayPal) hier ergänzen. Eine Spende ist keine Voraussetzung für die Nutzung.
-
-## Lizenz
-
-Für dieses Repository wurde bislang keine Lizenz ausgewählt. Ohne eine hinzugefügte Lizenz gelten die üblichen urheberrechtlichen Beschränkungen; andere dürfen den Quellcode nicht automatisch weiterverwenden oder weiterverbreiten.
+<sub>CS2 Manager · Version 1.0.0 · Optimize. Configure. Play.</sub>
