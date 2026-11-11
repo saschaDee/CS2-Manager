@@ -2,13 +2,13 @@
 
 ![Cs2 Start Manager – Optimize. Configure. Play.](banner.png)
 
-# CS2 Manager
+# Cs2 Start Manager
 
 **Optimize. Configure. Play.**
 
 Ein Windows-Tool von **SaschaDe** zur Konfiguration und Vorbereitung von Counter-Strike 2.
 
-[⬇️ **CS2 Manager v1.0.0 herunterladen**](https://github.com/saschaDee/CS2-Manager/releases/latest/download/CS2Manager.zip)
+[⬇️ **CS2 Start Manager v1.0.0 herunterladen**](https://github.com/saschaDee/CS2-Manager/releases/latest/download/CS2Manager.zip)
 · [Alle Releases](https://github.com/saschaDee/CS2-Manager/releases)
 
 </div>
@@ -17,7 +17,7 @@ Ein Windows-Tool von **SaschaDe** zur Konfiguration und Vorbereitung von Counter
 
 ## Screenshot
 
-![CS2 Manager – Hauptfenster](screenshot-cs2-manager.jpg)
+![Cs2 Start Manager – Hauptfenster](screenshot-cs2-manager.jpg)
 
 ## Funktionen
 
