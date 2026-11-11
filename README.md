@@ -1,6 +1,6 @@
 <div align="center">
 
-![CS2 Manager – Optimize. Configure. Play.](banner.png)
+![Cs2 Start Manager – Optimize. Configure. Play.](banner.png)
 
 # CS2 Manager
 
